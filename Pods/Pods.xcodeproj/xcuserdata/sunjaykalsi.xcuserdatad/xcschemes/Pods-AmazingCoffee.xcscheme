@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1250"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24F3E6E58621143AE183C0842BA20D07"
-               BuildableName = "Pods_AmazingCoffee.framework"
+               BuildableName = "libPods-AmazingCoffee.a"
                BlueprintName = "Pods-AmazingCoffee"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

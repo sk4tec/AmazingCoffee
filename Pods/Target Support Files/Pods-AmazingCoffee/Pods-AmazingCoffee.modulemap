@@ -1,4 +1,4 @@
-framework module Pods_AmazingCoffee {
+module Pods_AmazingCoffee {
   umbrella header "Pods-AmazingCoffee-umbrella.h"
 
   export *

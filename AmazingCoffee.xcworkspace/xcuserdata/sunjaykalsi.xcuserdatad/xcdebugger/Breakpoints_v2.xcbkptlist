@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "89D585FA-1FF9-4FB4-B570-E3659873D2E0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C999E03-D59A-43B0-AB8F-DCAC749E93AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmazingCoffee/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "loadData(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69FFCDDC-ABFB-4FE7-B8D9-E011E1576299"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmazingCoffee/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "loadData(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "69FFCDDC-ABFB-4FE7-B8D9-E011E1576299 - aecec9a87445af0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmazingCoffee.ViewController.loadData(completion: (Swift.Optional&lt;AmazingCoffee.WeatherModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmazingCoffee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sunjaykalsi/Documents/Repos/AmazingCoffee/AmazingCoffee/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1032">
+               </Location>
+               <Location
+                  uuid = "69FFCDDC-ABFB-4FE7-B8D9-E011E1576299 - d133680501ae8f6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in AmazingCoffee.ViewController.loadData(completion: (Swift.Optional&lt;AmazingCoffee.WeatherModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmazingCoffee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sunjaykalsi/Documents/Repos/AmazingCoffee/AmazingCoffee/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
