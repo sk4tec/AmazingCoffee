@@ -17,6 +17,7 @@ let apiVersion = "20180323"
 let radius = "100"
 let latLong = "40.7243,-74.0018"
 let section = "coffee"
+let limit = "10"
 
 struct CoffeeShopModel {
     
@@ -28,13 +29,13 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         
         loadData(completion: { data in
-          print(data)
+          //print(data)
         })
     }
     
     func loadData(completion: @escaping (CoffeeShopModel?) -> Void) {
         
-        let completeUrl = "\(apiBaseURL)?client_id=\(clientId)&client_secret=\(clientSecrect)&v=\(apiVersion)&radius=\(radius)&ll=\(latLong)&section=\(section)"
+        let completeUrl = "\(apiBaseURL)?client_id=\(clientId)&client_secret=\(clientSecrect)&v=\(apiVersion)&radius=\(radius)&ll=\(latLong)&section=\(section)&limit=\(limit)"
            
            var CoffeeShopModel: CoffeeShopModel? = nil
            
@@ -42,7 +43,16 @@ class ViewController: UITableViewController {
                switch response.result {
                case .success(let value):
                    let json = JSON(value)
-                   print(json)
+                   //print(json)
+                   //print(json["response"]["groups"][0]["items"])
+                   
+                for (key, subJson) in json["response"]["groups"][0]["items"] {
+                    print(subJson)
+                }
+                   
+                   
+                    
+                
 
                    completion(CoffeeShopModel)
                case .failure(let error):
